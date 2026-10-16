@@ -1,0 +1,2 @@
+--extra-index-url https://pkgs.dev.azure.com/ci-workflow-testing/_packaging/ci-workflow-org/pypi/simple/
+ciw-sbx-feeds-py-org==0.1.2

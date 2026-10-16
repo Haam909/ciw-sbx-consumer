@@ -1,5 +1,6 @@
-# .github/components.yml - proof run for #18: two components whose dependency
-# is a package on GitHub Packages, published by Haam909/ciw-sbx-feeds.
+# .github/components.yml - proof runs for #18 and #19: components whose
+# dependency is a package on GitHub Packages (#18) or on the org-scoped Azure
+# Artifacts Feed (#19), published by Haam909/ciw-sbx-feeds.
 components:
   - name: dotnet-consumer
     runtime: dotnet
@@ -11,3 +12,19 @@ components:
     runtime: node
     target: none
     path: src/node-consumer
+
+  - name: dotnet-org-consumer
+    runtime: dotnet
+    target: none
+    project: src/dotnet-org-consumer/DotnetOrgConsumer.csproj
+    dotnet-version: '10.0.x'
+
+  - name: node-org-consumer
+    runtime: node
+    target: none
+    path: src/node-org-consumer
+
+  - name: py-org-consumer
+    runtime: python
+    target: none
+    path: src/py-org-consumer
