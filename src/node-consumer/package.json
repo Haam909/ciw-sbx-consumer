@@ -1,0 +1,8 @@
+{
+  "name": "node-consumer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": { "test": "node --test" },
+  "dependencies": { "@haam909/ciw-sbx-feeds-node-gh": "0.1.2" }
+}

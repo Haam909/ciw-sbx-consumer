@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "CiwSbxFeeds.DotnetGh": {
+        "type": "Direct",
+        "requested": "[0.1.2, )",
+        "resolved": "0.1.2",
+        "contentHash": "V47CRaw7Ixw0SntdmU69rrAAwiD4nMTKz1UXSECN/uR0xk/ehchcLGzfiBc5j1sKKgSqGCHjeaaiSD9MQssm2w=="
+      }
+    }
+  }
+}

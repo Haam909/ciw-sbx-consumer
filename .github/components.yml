@@ -1,0 +1,13 @@
+# .github/components.yml - proof run for #18: two components whose dependency
+# is a package on GitHub Packages, published by Haam909/ciw-sbx-feeds.
+components:
+  - name: dotnet-consumer
+    runtime: dotnet
+    target: none
+    project: src/dotnet-consumer/DotnetConsumer.csproj
+    dotnet-version: '10.0.x'
+
+  - name: node-consumer
+    runtime: node
+    target: none
+    path: src/node-consumer
